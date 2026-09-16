@@ -3,8 +3,8 @@
 <chapter xml:id="ch-intro" xmlns:xi="http://www.w3.org/2001/XInclude" metadata="test">
   <title>Introduction</title>
 
-  <introduction>
-    <p>
+  <introduction metadata="test">
+    <p metadata="test">
       This book is a PreTeXt version.
       This is the skeleton to be filled in.
       Below are examples with:
@@ -19,45 +19,45 @@
     </p>
   </introduction>
 
-  <section xml:id="sec-adding-img-tbl">
-    <title>New Section: Adding a Image and Table</title>
+  <section xml:id="sec-adding-img-tbl" metadata="test">
+    <title metadata="test">New Section: Adding a Image and Table</title>
 
-    <introduction>
-      <p>
+    <introduction metadata="test">
+      <p metadata="test">
         Here we look at adding an image and a table
       </p>
     </introduction>
 
-    <subsection xml:id="subsec-img-tbl">
-      <title>Table and Image</title>
+    <subsection xml:id="subsec-img-tbl" metadata="test">
+      <title metadata="test">Table and Image</title>
 
-      <p>
+      <p metadata="test">
         <xref ref="fig-placeholder"/> gives an example image, and
         <xref ref="table-placeholder"/> shows an example table.
       </p>
       <!-- Example Image -->
-      <figure xml:id="fig-placeholder">
-        <caption>Sample Caption</caption>
-        <image source="images/placeholder.jpeg" width="50%">
-          <description>
-            <p>
+      <figure xml:id="fig-placeholder" metadata="test">
+        <caption metadata="test">Sample Caption</caption>
+        <image source="images/placeholder.jpeg" width="50%" metadata="test">
+          <description metadata="test">
+            <p metadata="test">
               Sample description (in case image does not render)
             </p>
           </description>
         </image>
       </figure>
       <!-- Example Table -->
-      <table xml:id="table-placeholder">
-        <title>Sample Table</title>
+      <table xml:id="table-placeholder" metadata="test">
+        <title metadata="test">Sample Table</title>
 
-        <tabular halign="left">
-          <row header="yes">
+        <tabular halign="left" metadata="test">
+          <row header="yes" metadata="test">
             <cell>Column 1</cell>
             <cell>Column 2</cell>
             <cell>Column 3</cell>
           </row>
 
-          <row>
+          <row metadata="test">
             <cell>Value 1</cell>
             <cell>Value 2</cell>
             <cell>Value 3</cell>
@@ -67,15 +67,15 @@
     </subsection>
   </section>
   <!-- Example R Code -->
-  <section xml:id="sec-r-code-output">
-    <title>R Code and Output</title>
+  <section xml:id="sec-r-code-output" metadata="test">
+    <title metadata="test">R Code and Output</title>
 
-    <p>
+    <p metadata="test">
       Here is example R code and output.
     </p>
 
-    <program language="r">
-      <code>
+    <program language="r" metadata="test">
+      <code metadata="test">
       # Sample R code
       x &lt;- c(1, 2, 3, 4, 5)
       mean(x)
@@ -89,9 +89,9 @@
   <section xml:id="sec-maths-time">
     <title>maths-time</title>
 
-    <p>
+    <p metadata="test">
       Here we can write a formula in text
-      <md>
+      <md metadata="test">
         1 + 1 = 2
       </md>.
       Or as a new row:
@@ -106,18 +106,18 @@
       The following illustrates embedding a STACK question.
     </p>
 
-    <exercise>
-      <title>STACK integration question</title>
+    <exercise metadata="test">
+      <title metadata="test">STACK integration question</title>
 
-      <introduction>
-        <p>
+      <introduction metadata="test">
+        <p metadata="test">
           A test question.
           (2025-08-15: you may need to ask for a <q>new</q> question to make
           this render.)
         </p>
       </introduction>
       <!-- A @label is required, becomes a filename in output -->
-      <stack label="stack-integration" source="stack/01_integration_with_feedback.xml"/>
+      <stack label="stack-integration" source="stack/01_integration_with_feedback.xml"/ metadata="test">
     </exercise>
   </section>
 </chapter>
