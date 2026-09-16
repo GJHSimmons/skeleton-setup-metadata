@@ -19,7 +19,7 @@
     </p>
   </introduction>
 
-  <section xml:id="sec-New Section: Adding a Image and Table">
+  <section xml:id="sec-adding-img-tbl">
     <title>New Section: Adding a Image and Table</title>
 
     <introduction>
@@ -67,7 +67,7 @@
     </subsection>
   </section>
   <!-- Example R Code -->
-  <section xml:id="sec-R Code and Output">
+  <section xml:id="sec-r-code-output">
     <title>R Code and Output</title>
 
     <p>
